@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "720188090410",
+    "firebase_url": "https://platzi-place.firebaseio.com",
+    "project_id": "platzi-place",
+    "storage_bucket": "platzi-place.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720188090410:android:d45f0a9ce34d700f6cfb53",
+        "android_client_info": {
+          "package_name": "com.anncode.platzitripsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720188090410-5kjri2h3ue52of9knb0qpohb40aqtekj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anncode.platzitripsapp",
+            "certificate_hash": "9403e3e66736262075ea58e8acec0cc46058a39b"
+          }
+        },
+        {
+          "client_id": "720188090410-j8l8iitigs5l4me2m1mm9ge5ccnjqpq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOPdMs9MxM4Huuy7DBIpFXHV50EjS4g4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720188090410-j8l8iitigs5l4me2m1mm9ge5ccnjqpq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
