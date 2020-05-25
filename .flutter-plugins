@@ -3,5 +3,6 @@ cloud_firestore=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub
 firebase_auth=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.9.0/
 firebase_core=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.3.4/
 firebase_storage=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-2.1.1+2/
+flutter_facebook_login=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0/
 google_sign_in=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.5.1/
 google_sign_in_web=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.1+1/
