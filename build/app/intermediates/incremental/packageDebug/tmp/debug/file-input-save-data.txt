@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 25 10:02:02 COT 2020
+#Tue May 26 06:17:05 COT 2020
 5.base=/Users/franciscoricaurte/Desktop/flutter_data/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 42.base=/Users/franciscoricaurte/Desktop/flutter_data/build/app/intermediates/transforms/dexMerger/debug/3
 22.path=classes.dex

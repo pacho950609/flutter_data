@@ -49,8 +49,9 @@ class _SigninScreen extends State<SigninScreen> {
                 color: Colors.white,
                 fontWeight: FontWeight.bold
               ),),
-              ButtonGreen(text: 'Login con google',onPressed: () => {
-                userBloc.signin().then((FirebaseUser user) => print('El usuario es ${user.displayName}'))
+              ButtonGreen(text: 'Login con google',onPressed:() {
+                userBloc.signOut();
+                userBloc.signin().then((FirebaseUser user) => print('El usuario es ${user.displayName}'));
               },height: 50,width: 300)
             ],
           )

@@ -32,7 +32,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="platzi_trips_app"
+        android:label="Petmas"
         android:supportsRtl="true" >
         <activity
             android:name="com.anncode.platzitripsapp.MainActivity"

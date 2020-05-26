@@ -161,7 +161,7 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] /User
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-login:5.5.1] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-facebook-login-5.5.1.aar/b6913325811cc01b8898f483d0bfa3cb/AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:17:9-31
 	android:icon
 		ADDED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:18:9-43
 	android:name
