@@ -6,6 +6,8 @@ import 'package:platzi_trips_app/user/bloc/bloc_user.dart';
 import 'package:platzi_trips_app/widgets/button_green.dart';
 import 'package:platzi_trips_app/widgets/gradient_back.dart';
 
+import '../../model/user.dart';
+
 class SigninScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -49,9 +51,15 @@ class _SigninScreen extends State<SigninScreen> {
                 color: Colors.white,
                 fontWeight: FontWeight.bold
               ),),
-              ButtonGreen(text: 'Login con google',onPressed:() {
+              ButtonGreen(text: 'Login con google',onPressed:()async {
                 userBloc.signOut();
-                userBloc.signin().then((FirebaseUser user) => print('El usuario es ${user.displayName}'));
+                var res = await userBloc.signin();
+                userBloc.updateUser(User(
+                  uid:res.uid,
+                  name:res.displayName,
+                  email: res.email,
+                  photoUrl: res.photoUrl
+                ));
               },height: 50,width: 300)
             ],
           )

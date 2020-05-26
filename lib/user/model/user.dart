@@ -1,9 +1,22 @@
 import 'package:flutter/material.dart';
 
+import '../../place/model/place.dart';
+
 class User {
+  final String uid;
   final String name;
   final String email;
   final String photoUrl;
+  final List<Place> myPlaces;
+  final List<Place> myFavoritePlaces;
 
-  User(this.name,this.email,this.photoUrl);
+  User({
+    Key key,
+    @required this.uid,
+    @required this.name,
+    @required this.email,
+    @required this.photoUrl,
+    @required this.myPlaces,
+    @required this.myFavoritePlaces,
+  });
 }
