@@ -1,7 +1,11 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:generic_bloc_provider/generic_bloc_provider.dart';
+import 'package:platzi_trips_app/place/model/place.dart';
 import 'package:platzi_trips_app/place/ui/widgets/card_image.dart';
 import 'package:platzi_trips_app/place/ui/widgets/input_location.dart';
+import 'package:platzi_trips_app/user/bloc/bloc_user.dart';
+import 'package:platzi_trips_app/widgets/button_purple.dart';
 import 'package:platzi_trips_app/widgets/gradient_back.dart';
 import 'package:platzi_trips_app/widgets/text_input.dart';
 import 'package:platzi_trips_app/widgets/title_header.dart';
@@ -16,12 +20,15 @@ class AddPlaceScreen extends StatefulWidget {
   }
 }
 
+
 class _AddPlaceScreen extends State<AddPlaceScreen> {
+
+  final controllerTitleText = TextEditingController();
+  final controllerDescriptionText = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
-    final controllerTitleText = TextEditingController();
-    final controllerDescriptionText = TextEditingController();
-
+    UserBloc userBloc = BlocProvider.of<UserBloc>(context);
     return Scaffold(
       body: Stack(
         children: <Widget>[
@@ -57,10 +64,16 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
               children: <Widget>[
                 Container(
                   alignment: Alignment.center,
-                  child: CardImage(pathImage: "assets/img/mountain.jpeg",inconData: Icons.camera_alt, width: 300,height: 200,left: 0,),
+                  child: CardImage(
+                    pathImage: widget.image.path,
+                    inconData: Icons.camera_alt,
+                    width: 300,
+                    height: 200,
+                    left: 0,
+                  ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(bottom: 20, top:20),
+                  margin: EdgeInsets.only(bottom: 20, top: 20),
                   child: TextInput(
                     controller: controllerTitleText,
                     hintText: 'Title',
@@ -69,13 +82,33 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                 ),
                 TextInput(
                   controller: controllerDescriptionText,
-                  hintText: 'Title',
+                  hintText: 'Description',
                   inputType: TextInputType.multiline,
-                  maxLine: 4,
+                  maxLine: 2,
                 ),
                 Container(
-                  margin: EdgeInsets.only(top:20),
-                  child: InputLocation(hintText: 'add Location',iconDate: Icons.location_on,),
+                  margin: EdgeInsets.only(top: 20),
+                  child: InputLocation(
+                    hintText: 'add Location',
+                    iconDate: Icons.location_on,
+                  ),
+                ),
+                Container(
+                  width: 70,
+                  child: ButtonPurple(
+                    buttonText: 'Enviar',
+                    onPressed: () {
+                      userBloc
+                          .updatePlaceData(Place(
+                              name: controllerTitleText.text,
+                              description: controllerDescriptionText.text,
+                              likes: 0))
+                          .whenComplete(() {
+                        print('termino');
+                        Navigator.pop(context);
+                      });
+                    },
+                  ),
                 )
               ],
             ),

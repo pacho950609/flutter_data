@@ -5,6 +5,8 @@ INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main
 INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:1:1-57:12
 INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:1:1-57:12
 MERGED from [:firebase_auth] /Users/franciscoricaurte/Desktop/flutter_data/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/franciscoricaurte/Desktop/flutter_data/build/flutter_plugin_android_lifecycle/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_facebook_login] /Users/franciscoricaurte/Desktop/flutter_data/build/flutter_facebook_login/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] /Users/franciscoricaurte/Desktop/flutter_data/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] /Users/franciscoricaurte/Desktop/flutter_data/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
@@ -37,7 +39,6 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/d5d4614c741ad641d4168cb09380d4bc/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/326ab17f01c93197150dfaadd948472e/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/a604db1ade94e8de0996170fba45f7ba/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/a269b5bc76f7b14cb80f0e3aa46ebcd3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/browser-1.0.0-rc01.aar/dd681faf63248cf8e8305fde61f55770/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-rc01.aar/a7a5457784d295255fd5b50548edaf5f/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0-rc01.aar/8b95a9f862a7b2873601e8f502948cc1/AndroidManifest.xml:17:1-22:12
@@ -45,6 +46,7 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/franciscoricaurte/.gradl
 MERGED from [com.facebook.android:facebook-core:5.5.1] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-facebook-core-5.5.1.aar/668f2c511d006576e3335d45ae4aba84/AndroidManifest.xml:21:1-61:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/78effef86a0bf37da38a29ee724c2a2d/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8fb5ad11729cc8140137e40a49b2aeb8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/a269b5bc76f7b14cb80f0e3aa46ebcd3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/da1ec0c36af4eeb934b2688e2c881e3b/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/ca9471bf8fdcb29497e613f355543d56/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0-rc01.aar/ed615a1c4dcb1ead140210279f4bbb8c/AndroidManifest.xml:17:1-22:12
@@ -108,6 +110,8 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/franciscoricaurte/.
 		ADDED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:8:22-64
 application
 ADDED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml:15:5-56:19
+MERGED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
 MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-facebook-login-5.5.1.aar/b6913325811cc01b8898f483d0bfa3cb/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:5.5.1] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-facebook-login-5.5.1.aar/b6913325811cc01b8898f483d0bfa3cb/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:5.5.1] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-facebook-common-5.5.1.aar/3067f2079dcf25ca4788f0115144ef2a/AndroidManifest.xml:28:5-35:19
@@ -246,6 +250,10 @@ INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main
 INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_auth] /Users/franciscoricaurte/Desktop/flutter_data/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/franciscoricaurte/Desktop/flutter_data/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/franciscoricaurte/Desktop/flutter_data/build/flutter_plugin_android_lifecycle/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/franciscoricaurte/Desktop/flutter_data/build/flutter_plugin_android_lifecycle/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_facebook_login] /Users/franciscoricaurte/Desktop/flutter_data/build/flutter_facebook_login/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_facebook_login] /Users/franciscoricaurte/Desktop/flutter_data/build/flutter_facebook_login/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/franciscoricaurte/Desktop/flutter_data/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
@@ -310,8 +318,6 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/franciscoricau
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/326ab17f01c93197150dfaadd948472e/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/a604db1ade94e8de0996170fba45f7ba/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/a604db1ade94e8de0996170fba45f7ba/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/a269b5bc76f7b14cb80f0e3aa46ebcd3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/a269b5bc76f7b14cb80f0e3aa46ebcd3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/browser-1.0.0-rc01.aar/dd681faf63248cf8e8305fde61f55770/AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/browser-1.0.0-rc01.aar/dd681faf63248cf8e8305fde61f55770/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0-rc01.aar/a7a5457784d295255fd5b50548edaf5f/AndroidManifest.xml:20:5-44
@@ -326,6 +332,8 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /Users/franci
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0-rc01.aar/78effef86a0bf37da38a29ee724c2a2d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8fb5ad11729cc8140137e40a49b2aeb8/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8fb5ad11729cc8140137e40a49b2aeb8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/a269b5bc76f7b14cb80f0e3aa46ebcd3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/a269b5bc76f7b14cb80f0e3aa46ebcd3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/da1ec0c36af4eeb934b2688e2c881e3b/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0-rc01.aar/da1ec0c36af4eeb934b2688e2c881e3b/AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0-rc01.aar/ca9471bf8fdcb29497e613f355543d56/AndroidManifest.xml:20:5-44
@@ -388,6 +396,30 @@ INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main
 		INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/franciscoricaurte/Desktop/flutter_data/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/franciscoricaurte/Desktop/flutter_data/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:17-67
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:5.5.1] /Users/franciscoricaurte/.gradle/caches/transforms-1/files-1.1/jetified-facebook-common-5.5.1.aar/3067f2079dcf25ca4788f0115144ef2a/AndroidManifest.xml:33:9-71
 	android:name

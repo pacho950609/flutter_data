@@ -4,5 +4,7 @@ firebase_auth=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.d
 firebase_core=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.3.4/
 firebase_storage=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-2.1.1+2/
 flutter_facebook_login=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0/
+flutter_plugin_android_lifecycle=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.8/
 google_sign_in=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.5.1/
 google_sign_in_web=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.1+1/
+image_picker=/Users/franciscoricaurte/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.6+5/
